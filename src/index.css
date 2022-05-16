@@ -1,8 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +13,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero1 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_1750/v1650577328/I'm%20Almost%20Home/dog-car_bytdsv.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_1750/v1650577328/I'm%20Almost%20Home/dog-car_bytdsv.webp");
+  max-width: 100%;
+  height: 90vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero1 {
+    background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_500/v1650577320/I'm%20Almost%20Home/dog-car-small_koczfq.jpg");
+    background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/c_scale,w_500/v1650577320/I'm%20Almost%20Home/dog-car-small_koczfq.webp");
+    max-width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.hero2 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016315/I%27m%20Almost%20Home/dog-running_z4zjno.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016315/I%27m%20Almost%20Home/dog-running_z4zjno.webp");
+  max-width: 100%;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero3 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016505/I%27m%20Almost%20Home/happydog_w5hlnt.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016505/I%27m%20Almost%20Home/happydog_w5hlnt.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero4 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016315/I%27m%20Almost%20Home/dog-jump_crspes.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016315/I%27m%20Almost%20Home/dog-jump_crspes.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bones {
+  background-image: url("./img/bones.svg");
+  max-width: 100%;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dog1 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog1_vnpwwq.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog1_vnpwwq.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog2 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog2_foiycx.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog2_foiycx.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog3 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog3_goox06.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog3_goox06.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dog4 {
+  background-image: url("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog4_gwk4by.jpg");
+  background-image: image-set("https://res.cloudinary.com/dm8nr1vwr/image/upload/v1650016504/I%27m%20Almost%20Home/dog4_gwk4by.webp");
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
