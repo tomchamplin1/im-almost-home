@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import 'animate.css';
+import "animate.css";
 import "animate.css/animate.min.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Showcase() {
   return (
     <section class="hero1 py-36 md:px-20 px-4 grid md:grid-cols-2 grid-cols-1">
-      <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true" class="text-left">
+      <AnimationOnScroll
+        animateIn="animate__fadeInUp"
+        animateOnce="true"
+        class="text-left"
+      >
         <h1 class="pt-12 mb-5 lg:text-7xl text-5xl font-extrabold leading-none text-white mx-auto">
           Help us bring them <span className="text-red-600">home</span>.
         </h1>
@@ -16,13 +20,34 @@ export default function Showcase() {
           dogs in need find their forever home.
         </p>
         <div className="flex">
-          <p class="mb-12">
-            <Link
-              to="/get-involved"
-              class="rounded-3xl bg-white hover:text-white hover:bg-red-600 border hover:border-white text-red-600 text-sm md:text-lg tracking-wider py-2 px-3 shadow font-bold mx-auto"
+          <p>
+            <form
+              action="https://www.paypal.com/donate"
+              method="post"
+              target="_top"
+              className="hidden md:block"
             >
-              Show me how →
-            </Link>
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="TBJHZCL9TXN8S"
+              />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
+                border="0"
+                name="submit"
+                title="PayPal - The safer, easier way to pay online!"
+                alt="Donate with PayPal button"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypal.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
           </p>
           <p class="pl-5">
             <Link
