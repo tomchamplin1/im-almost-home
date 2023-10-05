@@ -6,11 +6,12 @@ import Cards from "../components/Cards";
 import AboutM from "../components/AboutM";
 import Connect from "../components/Connect";
 import Footer from "../components/Footer";
+import Alert from "../components/Alert";
 
 export default function Home() {
-
   return (
     <div>
+      <Alert />
       <Navbar />
       <Showcase />
       <Cards />
