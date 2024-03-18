@@ -19,7 +19,7 @@ export default function Navbar1() {
             action="https://www.paypal.com/donate"
             method="post"
             target="_top"
-            className="hidden md:block"
+            className="my-auto"
           >
             <input
               type="hidden"
