@@ -70,7 +70,11 @@ export default function Footer() {
       <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between px-4 md:px-0 text-center">
         <span class="text-sm text-gray-500 text-center mx-auto">
-          Designed by <a className="text-red-600" href="https://sitecheer.com">SiteCheer</a>.<br /> © 2022{" "}
+          Designed by{" "}
+          <a className="text-red-600" href="https://sitecheer.com">
+            SiteCheer
+          </a>
+          .<br /> © {new Date().getFullYear()}{" "}
           <a href="#" class="hover:underline">
             I'm Almost Home Animal Rescue™
           </a>
