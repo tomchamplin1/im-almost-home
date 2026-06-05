@@ -73,7 +73,7 @@ export default function DogsDirectory() {
             No dogs match your filters right now.
           </p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-16">
             {filtered.map((dog) => (
               <div
                 key={dog.id}
@@ -82,7 +82,7 @@ export default function DogsDirectory() {
                 <img
                   src={dog.img}
                   alt={dog.name}
-                  className="w-full h-56 object-cover"
+                  className="w-full aspect-square sm:aspect-auto sm:h-56 object-cover object-top"
                 />
                 <div className="p-5 flex flex-col flex-1">
                   <div className="flex items-start justify-between mb-1">
