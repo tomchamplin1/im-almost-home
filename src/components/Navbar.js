@@ -103,6 +103,14 @@ export default function Navbar1() {
             </li> */}
             <li>
               <Link
+                to="/dogs"
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
+              >
+                Adopt
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/get-involved"
                 class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 border-black md:hover:border-b md:border-black border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 text-black"
               >

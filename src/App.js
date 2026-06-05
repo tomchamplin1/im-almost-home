@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 // import About from "./pages/About";
 import Involved from "./pages/Involved";
 import Contact from "./pages/Contact";
+import Dogs from "./pages/Dogs";
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
             {/* <Route path="/about" element={<About />} exact /> */}
             <Route path="/get-involved" element={<Involved />} exact />
             <Route path="/contact" element={<Contact />} exact />
+            <Route path="/dogs" element={<Dogs />} exact />
             {/* <Route element={<NotFound />} /> */}
           </Routes>
       </BrowserRouter>
