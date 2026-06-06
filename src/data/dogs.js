@@ -349,6 +349,26 @@ const dogs = [
     status: "Available",
     img: "/dogs/Brindle.png",
   },
+  {
+    id: 41,
+    name: "The Dancing Ladies (sisters)",
+    breed: "Mix",
+    age: "Unknown",
+    sex: "Female",
+    size: "Medium",
+    status: "Available",
+    img: "/dogs/DancingLadies.png",
+  },
+  {
+    id: 42,
+    name: "Cupcake",
+    breed: "Mix",
+    age: "Unknown",
+    sex: "Female",
+    size: "Medium",
+    status: "Available",
+    img: "/dogs/Cupcake.png",
+  },
 ];
 
 export default dogs;
