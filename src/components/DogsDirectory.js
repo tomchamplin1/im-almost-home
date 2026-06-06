@@ -85,18 +85,16 @@ export default function DogsDirectory() {
                   className="w-full aspect-square sm:aspect-auto sm:h-56 object-cover object-top"
                 />
                 <div className="p-5 flex flex-col flex-1">
-                  <div className="flex items-start justify-between mb-1">
-                    <h2 className="text-xl font-bold">{dog.name}</h2>
-                    <span
-                      className={`text-xs font-semibold px-2 py-1 rounded-full ${
-                        dog.status === "Available"
-                          ? "bg-green-100 text-green-700"
-                          : "bg-yellow-100 text-yellow-700"
-                      }`}
-                    >
-                      {dog.status}
-                    </span>
-                  </div>
+                  <span
+                    className={`self-start text-xs font-semibold px-2 py-1 rounded-full mb-1 ${
+                      dog.status === "Available"
+                        ? "bg-green-100 text-green-700"
+                        : "bg-yellow-100 text-yellow-700"
+                    }`}
+                  >
+                    {dog.status}
+                  </span>
+                  <h2 className="text-xl font-bold mb-1">{dog.name}</h2>
                   <p className="text-sm text-gray-500 mb-1">{dog.breed}</p>
                   <div className="flex flex-col gap-1 text-sm text-gray-600 mb-3">
                     <span><span className="font-semibold">Age:</span> {dog.age}</span>
