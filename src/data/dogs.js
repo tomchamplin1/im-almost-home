@@ -417,7 +417,7 @@ const dogs = [
     sex: "Female",
     size: "45 lbs",
     status: "Available",
-    img: "/dogs/Nashville.png",
+    img: "/dogs/Memphis.png",
   },
   {
     id: 49,
