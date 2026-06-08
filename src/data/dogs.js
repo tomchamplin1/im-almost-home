@@ -279,16 +279,7 @@ const dogs = [
     status: "Available",
     img: "/dogs/Bentley.png",
   },
-  {
-    id: 34,
-    name: "Ace",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Male",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/Ace.png",
-  },
+
   {
     id: 35,
     name: "Louie",
