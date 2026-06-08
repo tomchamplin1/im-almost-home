@@ -19,16 +19,7 @@ const dogs = [
     status: "Available", // "Available" or "On Hold"
     img: "/dogs/jake.png",
   },
-  {
-    id: 3,
-    name: "Ewok",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Male", // "Male" or "Female"
-    size: "Medium", // "Small", "Medium", or "Large"
-    status: "Available", // "Available" or "On Hold"
-    img: "/dogs/ewok.png",
-  },
+
   {
     id: 4,
     name: "Flop",
