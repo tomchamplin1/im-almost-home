@@ -6,7 +6,7 @@ const dogs = [
     age: "Unknown",
     sex: "Male", // "Male" or "Female"
     size: "Medium", // "Small", "Medium", or "Large"
-    status: "Available", // "Available" or "On Hold"
+    status: "Available *Recent surgery - needs rehab assistance*", // "Available" or "On Hold"
     img: "/dogs/buddy.png",
   },
   {
