@@ -1,9 +1,9 @@
 const dogs = [
   {
     id: 1,
-    name: "Buddy",
-    breed: "Mix",
-    age: "Unknown",
+    name: "Guerro",
+    breed: "Catahoula Leopard Dog",
+    age: "1 year",
     sex: "Male", // "Male" or "Female"
     size: "Medium", // "Small", "Medium", or "Large"
     status: "Available *Recent surgery - needs rehab assistance*", // "Available" or "On Hold"
@@ -22,10 +22,10 @@ const dogs = [
 
   {
     id: 4,
-    name: "Flop",
-    breed: "Mix",
+    name: "Hazel",
+    breed: "Sharpei Mix",
     age: "Unknown",
-    sex: "Male", // "Male" or "Female"
+    sex: "Female", // "Male" or "Female"
     size: "Medium", // "Small", "Medium", or "Large"
     status: "Available", // "Available" or "On Hold"
     img: "/dogs/flop.png",
@@ -33,7 +33,7 @@ const dogs = [
   {
     id: 5,
     name: "Tux",
-    breed: "Shepherd Mix",
+    breed: "Mix",
     age: "Unknown",
     sex: "Male", // "Male" or "Female"
     size: "Large", // "Small", "Medium", or "Large"
@@ -42,9 +42,9 @@ const dogs = [
   },
   {
     id: 6,
-    name: "Lola",
+    name: "June",
     breed: "Shepherd Mix",
-    age: "Unknown",
+    age: "2 years",
     sex: "Female",
     size: "Medium",
     status: "Available",
@@ -91,20 +91,10 @@ const dogs = [
     img: "/dogs/peter.png",
   },
   {
-    id: 12,
-    name: "Honey",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Female",
-    size: "Small",
-    status: "Available",
-    img: "/dogs/honey.png",
-  },
-  {
     id: 13,
-    name: "Daisy",
+    name: "Ash",
     breed: "Mix",
-    age: "Unknown",
+    age: "1 1/2 years",
     sex: "Female",
     size: "Medium",
     status: "Available",
@@ -142,9 +132,9 @@ const dogs = [
   },
   {
     id: 17,
-    name: "Patches",
+    name: "Astra",
     breed: "Mix",
-    age: "Unknown",
+    age: "3 years",
     sex: "Male",
     size: "Medium",
     status: "Available",
@@ -172,39 +162,19 @@ const dogs = [
   },
   {
     id: 22,
-    name: "Crumpet",
+    name: "Willow",
     breed: "Mix",
-    age: "Unknown",
+    age: "1 1/2 years",
     sex: "Female",
     size: "Medium",
     status: "Available",
     img: "/dogs/Crumpet.png",
   },
   {
-    id: 24,
-    name: "Benji",
-    breed: "Pit Mix",
-    age: "Unknown",
-    sex: "Male",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/Ellie.png",
-  },
-  {
-    id: 25,
-    name: "Ginger",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Female",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/Ginger.png",
-  },
-  {
     id: 26,
-    name: "Cooper",
-    breed: "Mix",
-    age: "Unknown",
+    name: "Parker",
+    breed: "Pit Mix",
+    age: "1 year",
     sex: "Male",
     size: "Medium",
     status: "Available",
@@ -222,9 +192,9 @@ const dogs = [
   },
   {
     id: 28,
-    name: "Ranger",
+    name: "Sparky",
     breed: "Mix",
-    age: "Unknown",
+    age: "6 months",
     sex: "Male",
     size: "Medium",
     status: "Available",
@@ -242,23 +212,13 @@ const dogs = [
   },
   {
     id: 31,
-    name: "Dolly",
-    breed: "Mix",
-    age: "Unknown",
+    name: "Quinci",
+    breed: "Husky/Lab Mix",
+    age: "4 months",
     sex: "Female",
     size: "Medium",
     status: "Available",
     img: "/dogs/Diesel.png",
-  },
-  {
-    id: 32,
-    name: "Nova",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Male",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/Nova.png",
   },
   {
     id: 33,
@@ -273,9 +233,9 @@ const dogs = [
 
   {
     id: 35,
-    name: "Louie",
+    name: "Marci",
     breed: "Mix",
-    age: "Unknown",
+    age: "2-3 years",
     sex: "Female",
     size: "Medium",
     status: "Available",
@@ -302,16 +262,6 @@ const dogs = [
     img: "/dogs/Bossman.png",
   },
   {
-    id: 39,
-    name: "Goose",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Male",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/Goose.png",
-  },
-  {
     id: 40,
     name: "Brindle",
     breed: "Mix",
@@ -320,16 +270,6 @@ const dogs = [
     size: "Medium",
     status: "Available",
     img: "/dogs/Brindle.png",
-  },
-  {
-    id: 41,
-    name: "The Dancing Ladies (sisters)",
-    breed: "Mix",
-    age: "Unknown",
-    sex: "Female",
-    size: "Medium",
-    status: "Available",
-    img: "/dogs/DancingLadies.png",
   },
   {
     id: 42,
