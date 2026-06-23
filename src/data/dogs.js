@@ -390,6 +390,16 @@ const dogs = [
     status: "Available",
     img: "/dogs/Crow.png",
   },
+  {
+    id: 54,
+    name: "Oliver",
+    breed: "Mix",
+    age: "5 years",
+    sex: "Male",
+    size: "Medium",
+    status: "Available",
+    img: "/dogs/Oliver.png",
+  },
 ];
 
 export default dogs;
